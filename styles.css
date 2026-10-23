@@ -124,7 +124,15 @@ header {
 /* TASK 8: Make the footer stay at the bottom of the window, even when
    the page content is short. Use flexbox on the body and let <main>
    grow to fill the space. */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
 
+main {
+    flex: 1;
+}
 
 
 /* TASK 9: Give the .notice a 5px solid #b5835a border on its
