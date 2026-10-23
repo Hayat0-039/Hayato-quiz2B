@@ -86,7 +86,12 @@ header {
 
 /* TASK 4: Put the navigation links (.nav-list) in a row with 20px
    between them. Remove the bullets and the list's default padding. */
-
+.nav-list {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
 
 
 /* TASK 5: Give each .card a 2px solid #b5835a border, and 20px of
