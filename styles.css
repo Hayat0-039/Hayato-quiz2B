@@ -114,7 +114,11 @@ header {
 
 /* TASK 7: When the browser window is 700px wide or narrower, show the
    herd in a single column. */
-
+@media (max-width: 700px) {
+    .herd {
+        grid-template-columns: 1fr;
+    }
+}
 
 
 /* TASK 8: Make the footer stay at the bottom of the window, even when
