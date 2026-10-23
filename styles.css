@@ -137,3 +137,6 @@ main {
 
 /* TASK 9: Give the .notice a 5px solid #b5835a border on its
    left side only. */
+.notice {
+    border-left: 5px solid #b5835a;
+}
