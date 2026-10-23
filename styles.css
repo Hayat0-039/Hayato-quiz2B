@@ -77,7 +77,11 @@ h2 {
 
 /* TASK 3: Lay out the header with flexbox. Push the logo to the left
    and the navigation to the right, and centre them vertically. */
-
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 
 /* TASK 4: Put the navigation links (.nav-list) in a row with 20px
