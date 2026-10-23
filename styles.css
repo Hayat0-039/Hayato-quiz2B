@@ -97,7 +97,10 @@ header {
 /* TASK 5: Give each .card a 2px solid #b5835a border, and 20px of
    padding on the top and bottom and 30px on the left and right,
    written as ONE padding declaration. */
-
+.card {
+    border: 2px solid #b5835a;
+    padding: 20px 30px;
+}
 
 
 /* TASK 6: Lay out the .herd section as a grid of three equal
