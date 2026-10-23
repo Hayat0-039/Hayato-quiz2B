@@ -105,7 +105,11 @@ header {
 
 /* TASK 6: Lay out the .herd section as a grid of three equal
    columns with 20px gutters between the cards. */
-
+.herd {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 20px;
+}
 
 
 /* TASK 7: When the browser window is 700px wide or narrower, show the
